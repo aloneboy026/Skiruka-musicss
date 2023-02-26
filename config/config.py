@@ -97,7 +97,7 @@ TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/773ee8e56d7eb0227ebfb.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/f9e08e7d99cb67408d6be.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
