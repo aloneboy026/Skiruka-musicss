@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "29468174"))
+API_HASH = getenv("API_HASH", "7700926f228c8928e8373e1f03563625"")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5667662740:AAGK0HMFjoZXnxy2tuvgDIHpBwsDf-G_VRg")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "600"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853853435"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5613528193").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -33,15 +33,15 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Star_X_Network")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Best_FriendsFor_Ever")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/team_comrades")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/mondo_lover")
 
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", True)
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "false")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
