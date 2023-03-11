@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29468174"))
-API_HASH = getenv("API_HASH", "7700926f228c8928e8373e1f03563625")
+API_ID = int(getenv("API_ID", "10284859"))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5667662740:AAGK0HMFjoZXnxy2tuvgDIHpBwsDf-G_VRg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5791761493:AAE0Rk6NScE8h3sXr12ES9W-hoYR1Z9Dnl0")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittuthemeoe:kiranraj@cluster0.mv6oj.mongodb.net/?retryWrites=true&w=majority")
 
@@ -20,7 +20,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853853435"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "psycho music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "angel music")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5613528193").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -62,7 +62,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQBGRffRoFUqJWBokVJ_TB2aq5tA0wYZScq7YFVEjN_17GwrgoFG-Dd_I3zVWIdN8iYXaccuaTGOjp-wlIdfrcztJMIwspit6GmLplpndYeb3EwWhvTZrt3oOkBaHm0soWb1Z5fCNDLLyYNhkuyUlSqbAb57pGrrfb-lEK5Q8CrTs7C2y9svuBpgnldK7XbeRrDF-tdRXtG65_V0cSOr3aBBT-aQnG3GsK99u5IokaFAd5Nrw2cRt1bN3fR0p6rv3JAWWDDnKMQx6PDOlFJomKMSglXOPAgvh1B1FvBTMWkf7dsLSHrobHbfJ5vQe35IE--s9g3yIb4k4cIHPdghjSotdkSlBgA")
+STRING1 = getenv("STRING_SESSION", "BQCp74kggJj__lWkNav5VC8jMGbYsNB7vR0sodWWnonN1ODkMQJj6H3ZKlJwD_kW_99F_n0J4CxFzh3KSGEDUUJLpirRMgFc5S0r2nSc1Ho0zoOK3FQxdRu4QNlHs-gYdDOJA0B_9rhsJq-I9KwzARDeBDSd-mU14tn-xxoesAE3qrNal-NYz9_VqTLzf8O9LtyYENvvJBcN5IZ0MnC1L1FnTohpinefiNahWPQrwZpYF2GXaTjAeBMMVtWpRk37M9EELLgulMJM2xi-YjBg9gjvrYFQ9NuNkJbjrA0Bcjl69-cTwYsXrHaPm1440pF8LLia35ISqPMXjoywUhw5l8KrAAAAAXML5aUA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -80,16 +80,16 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/fb8503859fff2455202d8.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/202c8e5a57f1f8597fe2a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/c5a52d44253d03f0070b1.jpg",
+    "https://telegra.ph/file/53112d2692ac8d0b499c0.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/f077c51f96b004300a46b.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/866b9268d45ef5647a642.jpg"
 
-GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/abafd51a44a1fe4d6e2e7.jpg"
 
 STATS_IMG_URL = "https://te.legra.ph/file/cbdad34a3e9f42609181c.jpg"
 
@@ -97,7 +97,7 @@ TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/f9e08e7d99cb67408d6be.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/74ca9881e017b55566611.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
