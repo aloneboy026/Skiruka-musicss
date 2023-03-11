@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://t.me/luckyclub16"
+                text="🌹 ʟᴏᴠᴇʀ 🌹", url=f"https://t.me/luckyclub16"
             ),
         ],
         [
@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"☀ sʜɪᴢᴜᴋᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
+                text=f"☀ ᴀɴɢᴇʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
                 url=f"https://t.me/itz_Shizuka_Robot",
             )
         ],
@@ -74,7 +74,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://t.me/luckyclub16"),
+            InlineKeyboardButton(text="🌹 ʟᴏᴠᴇʀ 🌹", url=f"https://t.me/luckyclub16"),
         ],
         [
             InlineKeyboardButton(
@@ -97,7 +97,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://t.me/luckyclub16"),
+            InlineKeyboardButton(text="🌹 ʟᴏᴠᴇʀ 🌹", url=f"https://t.me/luckyclub16"),
         ],
         [
             InlineKeyboardButton(
