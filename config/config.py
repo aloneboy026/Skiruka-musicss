@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5648256018:AAEnYqWof7ERFmAZV5kqQM3RpCoOylBwoR0"
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittuthemeoe:kiranraj@cluster0.mv6oj.mongodb.net/?retryWrites=true&w=majority")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "760"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
@@ -27,7 +27,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/its-star-boi/ShizukaXMusic",
+    "https://github.com/aloneboy026/Skiruka-musicss",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
@@ -80,11 +80,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/202c8e5a57f1f8597fe2a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/93a8cad5a043351ac89d0.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/53112d2692ac8d0b499c0.jpg",
+    "https://te.legra.ph/file/468cf34a0ae5d4eea9cb0.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/866b9268d45ef5647a642.jpg"
